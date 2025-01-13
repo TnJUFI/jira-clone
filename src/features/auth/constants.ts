@@ -1,0 +1,1 @@
+export const AUTH_COOKIE = "AjiCoding-jira-clone-session";
