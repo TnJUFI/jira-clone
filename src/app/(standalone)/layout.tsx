@@ -2,11 +2,11 @@ import { UserButton } from "@/features/auth/components/user-button";
 import Image from "next/image";
 import Link from "next/link";
 
-interface StandAloneLayoutProps {
+interface StandloneLayoutProps {
   children: React.ReactNode;
 }
 
-const StandAloneLayout = ({ children }: StandAloneLayoutProps) => {
+const StandAloneLayout = ({ children }: StandloneLayoutProps) => {
   return (
     <main className="bg-neutral-100 min-h-screen">
       <div className="mx-auto max-w-screen-2xl p-4">
